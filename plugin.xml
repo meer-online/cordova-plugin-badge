@@ -98,7 +98,7 @@
 
     <!-- android -->
     <platform name="android">
-	    <dependency id="me.leolin.shortcutbadger" />
+	    <!--<dependency id="me.leolin.shortcutbadger" />-->
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Badge">
