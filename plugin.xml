@@ -98,6 +98,7 @@
 
     <!-- android -->
     <platform name="android">
+	<dependency org="me.leolin" name="ShortcutBadger" rev="1.0.6"/>
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Badge">

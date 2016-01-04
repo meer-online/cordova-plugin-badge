@@ -38,6 +38,7 @@ import org.apache.cordova.CallbackContext;
 import org.apache.cordova.PluginResult;
 import org.json.JSONArray;
 
+import me.leolin.shortcutbadger.*;
 import me.leolin.shortcutbadger.ShortcutBadger;
 import me.leolin.shortcutbadger.impl.DefaultBadger;
 
