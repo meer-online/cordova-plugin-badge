@@ -134,7 +134,6 @@
 
         <source-file src="src/android/me/leolin/shortcutbadger/impl/AsusHomeLauncher.java" target-dir="src/me/leolin/shortcutbadger/impl" />
 	    <source-file src="src/android/me/leolin/shortcutbadger/impl/DefaultBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />
-        <source-file src="src/android/me/leolin/shortcutbadger/impl/AsusHomeLauncher.java" target-dir="src/me/leolin/shortcutbadger/impl" />
         <source-file src="src/android/me/leolin/shortcutbadger/impl/SolidHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />
         <source-file src="src/android/me/leolin/shortcutbadger/impl/XiaomiHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />
     </platform>
