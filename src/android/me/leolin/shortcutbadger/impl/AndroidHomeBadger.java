@@ -8,6 +8,9 @@ import me.leolin.shortcutbadger.util.ImageUtil;
 import me.leolin.shortcutbadger.ShortcutBadgeException;
 import me.leolin.shortcutbadger.ShortcutBadger;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: leolin
@@ -35,5 +38,13 @@ public class AndroidHomeBadger extends ShortcutBadger {
         contentValues.put("itemType", 1);
         contentValues.put("icon", bytes);
         contentResolver.update(mUri, contentValues, "title=?", new String[]{appName});
+    }
+
+    @Override
+    public List<String> getSupportLaunchers() {
+        return Arrays.asList(
+                "com.sec.android.app.launcher",
+                "com.sec.android.app.twlauncher"
+        );
     }
 }

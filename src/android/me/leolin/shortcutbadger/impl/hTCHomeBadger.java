@@ -9,6 +9,9 @@ import me.leolin.shortcutbadger.ShortcutBadgeException;
 import me.leolin.shortcutbadger.ShortcutBadger;
 import me.leolin.shortcutbadger.util.ImageUtil;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: leolin
@@ -54,5 +57,13 @@ public class hTCHomeBadger extends ShortcutBadger {
         }
 
 
+    }
+    
+    @Override
+    public List<String> getSupportLaunchers() {
+        return Arrays.asList(
+              "com.sec.android.app.launcher",
+              "com.sec.android.app.twlauncher"
+        );
     }
 }
